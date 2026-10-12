@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mochi Sky, votre compagnon météo kawaii. Informations officielles, confidentialité et assistance.">
+  <title>Mochi Sky — Site officiel</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      font-family: system-ui, -apple-system, sans-serif;
+      color: #243b60;
+      background: linear-gradient(160deg, #83c8fa, #eaf6ff 65%, #ffeaf2);
+    }
+
+    main {
+      width: 100%;
+      max-width: 560px;
+      padding: 42px 28px;
+      border: 1px solid rgba(255,255,255,.9);
+      border-radius: 28px;
+      background: rgba(255,255,255,.88);
+      box-shadow: 0 15px 45px rgba(54,104,155,.12);
+      text-align: center;
+    }
+
+    .symbol { font-size: 52px; }
+    h1 { margin: 12px 0; font-size: 36px; }
+    p { line-height: 1.7; }
+    a { color: #255d9e; }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .links a {
+      padding: 12px 18px;
+      border-radius: 16px;
+      background: #e4f2ff;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .links a:hover { background: #cce7ff; }
+
+    footer {
+      margin-top: 30px;
+      font-size: 13px;
+      color: #637997;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="symbol" aria-hidden="true">☁️</div>
+    <h1>Mochi Sky</h1>
+    <p>Votre petit compagnon météo kawaii.</p>
+    <p>
+      Retrouvez les informations officielles
+      concernant notre application météo,
+      la confidentialité et l'assistance.
+    </p>
+
+    <nav class="links" aria-label="Liens utiles">
+      <a href="/mochi-sky-site/">
+        Confidentialité et assistance
+      </a>
+      <a href="/app-ads.txt">
+        Informations publicitaires
+      </a>
+    </nav>
+
+    <footer>© 2026 Mochi Sky</footer>
+  </main>
+</body>
+</html>
